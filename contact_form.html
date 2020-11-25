@@ -21,21 +21,22 @@
       <h1>Contact Form</h1>
 
       <label for="fname"> First Name:</label>
-      <input type="text" id="fname" name="user_fname" />
+      <input type="text" id="fname" name="user_fname" /><br />
 
       <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="user_lname" />
+      <input type="text" id="lname" name="user_lname" /><br />
 
       <label for="pnumber">Contact phone number :</label>
-      <input type="text" id="pnumber" name="user_pnumber" />
+      <input type="text" id="pnumber" name="user_pnumber" /><br />
 
-      <label>Phone number type: </label>
+      <label>Phone number type: </label><br />
       <input
         type="radio"
         id="landline"
         value="landline"
         name="phone_number_type"
       /><label for="landline">Landline</label><br />
+
       <input
         type="radio"
         id="mobile"
@@ -44,20 +45,27 @@
       /><label for="mobile">Mobile</label><br />
 
       <label for="mail">Contact email:</label>
-      <input type="email" id="mail" name="user_email" />
+      <input type="email" id="mail" name="user_email" /><br />
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="user_password" />
+      <label for="hear">How did you hear about us:</label>
+      <select name="cars" id="cars">
+        <option value="search_engine">Search Engine</option>
+        <option value="social_media">Social Media</option>
+        <option value="recruiter">Recruiter</option>
+        <br />
+      </select>
+      <br />
+      <label> Interest for contacting:</label> <br />
 
-      <input
-        type="checkbox"
-        id="checkbox_id"
-        name="checkbox_name"
-        value="checkbox_value"
-      />
+      <input type="checkbox" id="skill1" name="skill1" value="javaSript" />
+      <label for="skill1"> JavaSript</label><br />
+      <input type="checkbox" id="skill2" name="skill2" value="html_skill" />
+      <label for="skill2"> HTML</label><br />
+      <input type="checkbox" id="skill3" name="skill3" value="css_skill" />
+      <label for="skill3"> CSS</label><br /><br />
 
-      <label for="bio">Biography:</label>
-      <textarea id="bio" name="user_bio"></textarea>
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="user_message"></textarea> <br />
 
       <button type="submit">Sign Up</button>
     </form>
