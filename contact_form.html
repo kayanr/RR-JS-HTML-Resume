@@ -17,17 +17,17 @@
       validation
     </p> -->
 
-    <form action="index.html" method="post">
+    <form action="results.html" method="GET">
       <h1>Contact Form</h1>
 
-      <label for="fname"> First Name:</label>
-      <input type="text" id="fname" name="user_fname" /><br />
+      <label> First Name:</label>
+      <input type="text" id="firstname" name="firstname" /><br />
 
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="user_lname" /><br />
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" /><br />
 
-      <label for="pnumber">Contact phone number :</label>
-      <input type="text" id="pnumber" name="user_pnumber" /><br />
+      <label for="phone">Contact phone number:</label>
+      <input type="text" id="phone" name="phone" /><br />
 
       <label>Phone number type: </label><br />
       <input
@@ -47,12 +47,11 @@
       <label for="mail">Contact email:</label>
       <input type="email" id="mail" name="user_email" /><br />
 
-      <label for="hear">How did you hear about us:</label>
-      <select name="cars" id="cars">
+      <label>How did you hear about us:</label>
+      <select name="mode" id="mode">
         <option value="search_engine">Search Engine</option>
         <option value="social_media">Social Media</option>
         <option value="recruiter">Recruiter</option>
-        <br />
       </select>
       <br />
       <label> Interest for contacting:</label> <br />
